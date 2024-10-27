@@ -23,7 +23,7 @@ app.add_middleware(
 )
 
 # Load the model
-MODEL = tf.keras.models.load_model(r"C:\Users\user\OneDrive\Desktop\Final Year Project\Project\model.keras")
+MODEL = tf.keras.models.load_model("../model.keras")
 CLASS_NAMES = [
     'Pepper__bell___Bacterial_spot',
     'Pepper__bell___healthy',
